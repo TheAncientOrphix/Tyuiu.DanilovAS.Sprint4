@@ -32,8 +32,6 @@ namespace Tyuiu.DanilovAS.Sprint4.Task0.V6
             int result = ds.GetSumOddArrEl(array);
             Console.WriteLine($"Ответ => {result}");
             Console.ReadKey();
-
-
         }
     }
 }
