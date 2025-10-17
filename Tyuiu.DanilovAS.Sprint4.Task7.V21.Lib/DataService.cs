@@ -12,7 +12,7 @@ namespace Tyuiu.DanilovAS.Sprint4.Task7.V21.Lib
             {
                 for(int j = 0;j<m; j++)
                 {
-                    array[i, j] = int.Parse(value.Substring(i * m, 1));
+                    array[i, j] = int.Parse(value.Substring(i * m + j, 1));
                 }
             }
 

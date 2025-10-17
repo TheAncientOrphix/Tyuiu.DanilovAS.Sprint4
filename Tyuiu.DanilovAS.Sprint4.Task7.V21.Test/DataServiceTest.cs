@@ -15,7 +15,7 @@ namespace Tyuiu.DanilovAS.Sprint4.Task7.V21.Test
             int m = 3;
 
             int result = ds.Calculate(n, m,value);
-            int wait = 12;
+            int wait = 32;
             
             Assert.AreEqual(wait, result);
         }
