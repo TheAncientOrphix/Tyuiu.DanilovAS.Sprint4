@@ -38,7 +38,7 @@ namespace Tyuiu.DanilovAS.Sprint4.Task2.V26
             Console.WriteLine("***************************************************************************");
 
             int result = ds.Calculate(array);
-            Console.WriteLine($"Ответ равен => {result]");
+            Console.WriteLine($"Ответ равен => {result}");
             Console.ReadKey();
         }
     }
