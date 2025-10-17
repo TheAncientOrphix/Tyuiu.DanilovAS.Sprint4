@@ -28,7 +28,7 @@ namespace Tyuiu.DanilovAS.Sprint4.Task5.V28.Test
                                               { 8, 8, 3, 7, 6 } };
 
             result = ds.Calculate(result);
-            Collection.Equals(waitMatrix, result);
+            CollectionAssert.AreEqual(waitMatrix, result);
         }
     }
 }
